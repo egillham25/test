@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(252, 219, 181);
+    color: crimson;
+    background-image: url(StarWars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: rgb(146, 31, 31);
+}
+h1,h2{
+    text-align: center;
+}
+img{
+    border: 5px solid orange;
+    padding: 5px;
+    height: 250px;
+    /* margin: auto;
+    display: block;    */
+    /* inline elements line up in horizontal space if there is space, if not enough space it'll wrap down
+        a block element takes the whole horizontal space */
+}
+.rizz{
+    /* . means it's my own thing, not premade */
+    font-family: Comic ;
+    color: hotpink;
+    border: 5px dashed yellow;
+    font-size: 400%;
+    font-weight: bolder;
+    background-color: limegreen;
+}
+.rizz:hover{
+    font-size: 450%;
+    color: blue;
+    border: 5px solid red;
+}
+li{
+    width: fit-content;
+}
+li:hover{
+    text-decoration: underline;
+    background-color: rgb(201, 214, 215);
+}
